@@ -11,7 +11,13 @@ Summary of course content from the class Audio Codec offered at NYU Music Techno
 
 * What is Codec?
 
-Codec consists of encoder&decoder
+The process of sound propagation from sound source to ear could be described as: Signal soundwave(analog)->A/D conversion->Digital encoding->Digital decoding->D/A conversion->Signal soundwave(analog); And the codec consists of encoder&decoder.
+
+* Perceptual Coder methods
+
+1.Redundancy removal: Model signal statistics
+2.Irrelevancyremoval: Model signal perception
+3.Entropycoding: Model probability distribution of quantized elements
 
 
 
