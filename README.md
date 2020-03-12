@@ -3,29 +3,18 @@
 Summary of course content from the class Audio Codec offered at NYU Music Technology major. Really appreciate Dr. Quackenbush for giving us great help in learning
 ## Table of Contents
 
-- [1.Perceptual Audio Coding Introduction](#PerceptualAudioCodingIntroduction)
-- [2.Sampling & Quantization](#Sampling&Quantization)
-- [3.Entropy Coding](#EntropyCoding)
+- [1.Perceptual Audio Coding Introduction](#Perceptual Audio Coding Introduction)
+- [2.Sampling & Quantization](#Sampling & Quantization)
+- [3.Entropy Coding](#Entropy Coding)
 
-## PerceptualAudioCodingIntroduction
+## Perceptual Audio Coding Introduction
 
-
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+* What is Codec?
+Codec consists of encoder&decoder
 
 
 
-## Sampling&Quantization
+## Sampling & Quantization
 
 b
 b
@@ -42,7 +31,7 @@ b
 
 
 
-## EntropyCoding
+## Entropy Coding
 
 c
 c
