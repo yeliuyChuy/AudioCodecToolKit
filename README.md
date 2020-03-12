@@ -10,13 +10,48 @@ Summary of course content from the class Audio Codec offered at NYU Music Techno
 ## PerceptualAudioCodingIntroduction
 
 
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
 
 
 
 ## Sampling&Quantization
 
-
+b
+b
+b
+b
+b
+b
+b
+b
+b
+b
+b
+b
 
 
 
 ## EntropyCoding
+
+c
+c
+c
+c
+c
+
+c
+c
+c
+c
+c
