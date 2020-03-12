@@ -44,7 +44,9 @@ The process of sound propagation from sound source to ear could be described as:
 
 **Sampling:**
 1. A/D Conversion: 
+
 ** Using LPF to bandlimit signal for eliminating aliasing.
+
 ** Sample amplitude of analog signal at uniform intervals
 
 ## Sampling&Quantization
