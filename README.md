@@ -9,11 +9,11 @@ Summary of course content from the class Audio Codec offered at NYU Music Techno
 
 ## PerceptualAudioCodingIntroduction
 
-* What is Codec?
+**What is Codec?**
 
 The process of sound propagation from sound source to ear could be described as: Signal soundwave(analog)->A/D conversion->Digital encoding->Digital decoding->D/A conversion->Signal soundwave(analog); And the codec consists of encoder&decoder.
 
-* Perceptual Coder methods
+**Perceptual Coder methods**
 
 1. Redundancy removal:  Model signal statistics
 
@@ -21,7 +21,7 @@ The process of sound propagation from sound source to ear could be described as:
 
 3. Entropycoding:  Model probability distribution of quantized elements
 
-* Distortions in Perceptual Coders and its reason:
+**Distortions in Perceptual Coders and its reason:**
 
 1. Pre-echo: Failure of temporal masking
 
@@ -31,19 +31,21 @@ The process of sound propagation from sound source to ear could be described as:
 
 4. Multichannel artifacts: Shift in stereo or front/back sound image, or Un masking of noise in one channel due to improper perceptual model
 
-* Some MPEG Audio Coders standard:
-
-1. 1982CompactDisc(CD)
-2. 1993MPEG-1LayerIII(MP3)
-3. 1997MPEG-2AdvancedAudioCoding(AAC)
-4. 2003MPEG-4HighEfficiencyAAC(HE-AAC)
-5. 2006MPEG-DMPEGSurround(MPS)
-6. 2011MPEG-DUnifiedSpeechandAudioCoding(USAC) • 2016MPEG-H3DAudio
-
+**Some MPEG Audio Coders standard:**
 
 | Name      | #Channel    | Transfer Rate    | Rate Per Channel    |
 | ---------- | :-----------:  | :-----------: | :-----------: |
-| 第一行     | 第一列     | 第二列     | 第三列     |
+| 1993 MPEG-1LayerIII(MP3)    | 2     | 160 kb/s     | 80 kb/s/chn     |
+| ---------- | :-----------:  | :-----------: | :-----------: |
+| 1997 MPEG-2AdvancedAudioCoding(AAC)     | 2     | 128 kb/s     | 64 kb/s/chn     |
+| ---------- | :-----------:  | :-----------: | :-----------: |
+| 2003 MPEG-4HighEfficiencyAAC(HE-AAC)     | 2     | 48 kb/s     | 24 kb/s/chn     |
+| ---------- | :-----------:  | :-----------: | :-----------: |
+| 2006 MPEG-DMPEGSurround(MPS)     | 5.1     | 64 kb/s     | 13 kb/s/chn     |
+| ---------- | :-----------:  | :-----------: | :-----------: |
+| 2011 MPEG-DUnifiedSpeechandAudioCoding(USAC)     | 2     | 20 kb/s     | 10 kb/s/chn     |
+| ---------- | :-----------:  | :-----------: | :-----------: |
+| 2016 MPEG-H3DAudio     | 24     | 768 kb/s     | 32 kb/s/chn     |
 
 ## Sampling&Quantization
 
