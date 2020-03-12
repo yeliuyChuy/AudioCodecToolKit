@@ -15,11 +15,23 @@ The process of sound propagation from sound source to ear could be described as:
 
 * Perceptual Coder methods
 
-1.Redundancy removal: Model signal statistics
-2.Irrelevancyremoval: Model signal perception
-3.Entropycoding: Model probability distribution of quantized elements
+1. Redundancy removal:  Model signal statistics
 
+2. Irrelevancyremoval:  Model signal perception
 
+3. Entropycoding:  Model probability distribution of quantized elements
+
+* Distortions in Perceptual Coders and its reason:
+
+1. Pre-echo: Failure of temporal masking
+
+2.Aliasing: Coarse quanitzation can cause “perfect reconstruction” to fail
+
+3.“Birdies”: Coarse quantization due to insufficient bits WRT masking threshold that causes harmonics to be coded as zero (or not) in adjacent blocks
+
+4. Multichannel artifacts
+– Shiftinstereoorfront/backsoundimage
+– Unmaskingofnoiseinonechannelduetoimproperperceptualmodel
 
 ## Sampling&Quantization
 
