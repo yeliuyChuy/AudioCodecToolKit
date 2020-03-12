@@ -39,6 +39,8 @@ The process of sound propagation from sound source to ear could be described as:
 4. 2003MPEG-4HighEfficiencyAAC(HE-AAC)
 5. 2006MPEG-DMPEGSurround(MPS)
 6. 2011MPEG-DUnifiedSpeechandAudioCoding(USAC) • 2016MPEG-H3DAudio
+
+
 | Name      | #Channel    | Transfer Rate    | Rate Per Channel    |
 | ---------- | :-----------:  | :-----------: | :-----------: |
 | 第一行     | 第一列     | 第二列     | 第三列     |
