@@ -25,13 +25,23 @@ The process of sound propagation from sound source to ear could be described as:
 
 1. Pre-echo: Failure of temporal masking
 
-2.Aliasing: Coarse quanitzation can cause “perfect reconstruction” to fail
+2. Aliasing: Bad A/D LPF or Bad Analysis/Synthesis Filterbank
 
-3.“Birdies”: Coarse quantization due to insufficient bits WRT masking threshold that causes harmonics to be coded as zero (or not) in adjacent blocks
+3. “Birdies”: Intermittent harmonics due to bad coding
 
-4. Multichannel artifacts
-– Shiftinstereoorfront/backsoundimage
-– Unmaskingofnoiseinonechannelduetoimproperperceptualmodel
+4. Multichannel artifacts: Shift in stereo or front/back sound image, or Un masking of noise in one channel due to improper perceptual model
+
+* Some MPEG Audio Coders standard:
+
+1. 1982CompactDisc(CD)
+2. 1993MPEG-1LayerIII(MP3)
+3. 1997MPEG-2AdvancedAudioCoding(AAC)
+4. 2003MPEG-4HighEfficiencyAAC(HE-AAC)
+5. 2006MPEG-DMPEGSurround(MPS)
+6. 2011MPEG-DUnifiedSpeechandAudioCoding(USAC) • 2016MPEG-H3DAudio
+| Name      | #Channel    | Transfer Rate    | Rate Per Channel    |
+| ---------- | :-----------:  | :-----------: | :-----------: |
+| 第一行     | 第一列     | 第二列     | 第三列     |
 
 ## Sampling&Quantization
 
