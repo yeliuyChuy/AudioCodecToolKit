@@ -34,15 +34,10 @@ The process of sound propagation from sound source to ear could be described as:
 **Some MPEG Audio Coders standard:**
 
 | Name      | #Channel    | Transfer Rate    | Rate Per Channel    |
-| ---------- | :-----------:  | :-----------: | :-----------: |
 | 1993 MPEG-1LayerIII(MP3)    | 2     | 160 kb/s     | 80 kb/s/chn     |
-| ---------- | :-----------:  | :-----------: | :-----------: |
 | 1997 MPEG-2AdvancedAudioCoding(AAC)     | 2     | 128 kb/s     | 64 kb/s/chn     |
-| ---------- | :-----------:  | :-----------: | :-----------: |
 | 2003 MPEG-4HighEfficiencyAAC(HE-AAC)     | 2     | 48 kb/s     | 24 kb/s/chn     |
-| ---------- | :-----------:  | :-----------: | :-----------: |
 | 2006 MPEG-DMPEGSurround(MPS)     | 5.1     | 64 kb/s     | 13 kb/s/chn     |
-| ---------- | :-----------:  | :-----------: | :-----------: |
 | 2011 MPEG-DUnifiedSpeechandAudioCoding(USAC)     | 2     | 20 kb/s     | 10 kb/s/chn     |
 | ---------- | :-----------:  | :-----------: | :-----------: |
 | 2016 MPEG-H3DAudio     | 24     | 768 kb/s     | 32 kb/s/chn     |
