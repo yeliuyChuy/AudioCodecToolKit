@@ -44,7 +44,7 @@ The process of sound propagation from sound source to ear could be described as:
 
 ## Sampling&Quantization
 
-**(Analog Signal)->LPF->A/D Conversion->(Digital Signal)>D/A Conversion->LPF
+**(Analog Signal)->LPF->A/D Conversion->(Digital Signal)>D/A Conversion->LPF**
 
 1. Using LPF to bandlimit signal for eliminating aliasing.
 
@@ -67,7 +67,9 @@ A signal is stationary if its statistics (e.g. time envelope, spectral content) 
 2. Coding loss is: 100*[(2^R - N)/2^R]%, where N is number of quantizer bins, R is the word length of the index.(i.e. 2^16 = 0.0015%)
 
 ## EntropyCoding
+“Perfect” codeword length is measured by Entropy: 
 
+![](https://github.com/yeliuyChuy/AudioCodecToolKit/blob/master/_ReadmePics/WX20200312-174248%402x.png)
 c
 c
 c
