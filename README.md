@@ -70,14 +70,13 @@ A signal is stationary if its statistics (e.g. time envelope, spectral content) 
 “Perfect” codeword length is measured by Entropy: 
 
 ![](https://github.com/yeliuyChuy/AudioCodecToolKit/blob/master/_ReadmePics/WX20200312-174248%402x.png)
-c
-c
-c
-c
-c
 
-c
-c
-c
-c
-c
+We want dynamic bit allocation in time and frequency, so divide short-time frequency into segments and design Entropy coder for each frequency segment...
+
+## MPEG-1 Filter Bank
+
+| Term      | Value    | 
+| ---------- | :-----------:  | 
+| Input block length    | 384 samples (8 ms)    | 
+| # of banks     | 32     |
+| Each of 32 bands contains    | 12 time samples     |
