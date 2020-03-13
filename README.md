@@ -87,4 +87,5 @@ We want dynamic bit allocation in time and frequency, so divide short-time frequ
 | ---------- | :-----------:  | 
 | Input block length    | 1024 samples (21.3 ms)    | 
 | Output     | Array of 1024 frequency coefficients    |
+| ----------  | 
 | Design Entropy code for all blocks and one freq. range|
