@@ -62,7 +62,7 @@ A signal is stationary if its statistics (e.g. time envelope, spectral content) 
 
 **Quantization**
 
-## MPEG-1 Filter Bank
+**MPEG-1 Filter Bank**
 
 | Term      | Value    | 
 | ---------- | :-----------:  | 
@@ -70,7 +70,7 @@ A signal is stationary if its statistics (e.g. time envelope, spectral content) 
 | # of banks     | 32     |
 | Each of 32 bands contains    | 12 time samples     |
 
-## MDCT Transform
+**MDCT Transform**
 
 | Term      | Value    | 
 | ---------- | :-----------:  | 
@@ -78,14 +78,14 @@ A signal is stationary if its statistics (e.g. time envelope, spectral content) 
 | Output     | Array of 1024 frequency coefficients    |
  Design Entropy code for all blocks and one freq. range
 
-## 1. Estimating quantizer bin probability -> 2. Calculating Entropy -> 3. Calculating bit rate
+**1. Estimating quantizer bin probability -> 2. Calculating Entropy -> 3. Calculating bit rate**
 
-## 1. Quantization and Estimating quantizer bin probability 
+**1. Quantization and Estimating quantizer bin probability**
 1. A coarse amplitude representation of a signal
 
 2. Coding loss is: 100*[(2^R - N)/2^R]%, where N is number of quantizer bins, R is the word length of the index.(i.e. 2^16 = 0.0015%)
 
-## 2. Calculating Entropy
+**2. Calculating Entropy**
 
 “Perfect” codeword length is measured by Entropy: 
 
@@ -93,7 +93,7 @@ A signal is stationary if its statistics (e.g. time envelope, spectral content) 
 
 We want dynamic bit allocation in time and frequency, so divide short-time frequency into segments and design Entropy coder for each frequency segment...
 
-## 3. Calculating bit rate
+**3. Calculating bit rate**
 
 Compute bit rate per spectral region for entire signal, then sum over all spectral regions and divide by duration (in seconds) of signal.
  
