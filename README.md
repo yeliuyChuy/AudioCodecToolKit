@@ -80,3 +80,11 @@ We want dynamic bit allocation in time and frequency, so divide short-time frequ
 | Input block length    | 384 samples (8 ms)    | 
 | # of banks     | 32     |
 | Each of 32 bands contains    | 12 time samples     |
+
+## MDCT Transform
+
+| Term      | Value    | 
+| ---------- | :-----------:  | 
+| Input block length    | 1024 samples (21.3 ms)    | 
+| Output     | Array of 1024 frequency coefficients    |
+| Design Entropy code for all blocks and one freq. range|
