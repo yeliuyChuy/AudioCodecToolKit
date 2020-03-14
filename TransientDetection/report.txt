@@ -1,0 +1,4 @@
+Short windows at samples        1 -     2048, window index 7
+Short windows at samples    13313 -    15360, window index 3
+Short windows at samples    17409 -    19456, window index 3
+Short windows at samples    20481 -    22528, window index 2
