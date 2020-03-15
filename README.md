@@ -97,27 +97,27 @@ Within current coding block, signal power at one frequency masks coding noise at
 
 ![](https://github.com/yeliuyChuy/AudioCodecToolKit/blob/master/_ReadmePics/FreqMasking.png)
 
-<1>. Critical Band: The equivalent rectangular bandwidth (ERB) of a cochlear filter. The Simultaneous Masking is based on the existence of critical bands. The hearing works much like a non-uniform filterbank, and the critical bands can be said to approximate the characteristics of those filters. Critical bands does not really have specific 'on' and 'off' frequencies, but rather width as a function of frequency - critical bandwidths.
+1. Critical Band: The equivalent rectangular bandwidth (ERB) of a cochlear filter. The Simultaneous Masking is based on the existence of critical bands. The hearing works much like a non-uniform filterbank, and the critical bands can be said to approximate the characteristics of those filters. Critical bands does not really have specific 'on' and 'off' frequencies, but rather width as a function of frequency - critical bandwidths.
 
-<2>. Auditory Filters: Harvey Fletcher (Bell Labs, 1940) suggested that the auditory system behaves like a bank of overlapping bandpass filters, which he termed “auditory filters”
+2. Auditory Filters: Harvey Fletcher (Bell Labs, 1940) suggested that the auditory system behaves like a bank of overlapping bandpass filters, which he termed “auditory filters”
 
-<3>. The Bark Scale: Bark scale is approximated as equal-bandwidth up to 700Hz and 1/3 octave above that, and 1 Bark is 1 critical bandwidth. The auditory system can be modeled as a filterbank, consisting of 25 overlapping bandpass filters, from 0 to 20 KHz: 
+3. The Bark Scale: Bark scale is approximated as equal-bandwidth up to 700Hz and 1/3 octave above that, and 1 Bark is 1 critical bandwidth. The auditory system can be modeled as a filterbank, consisting of 25 overlapping bandpass filters, from 0 to 20 KHz: 
 
 Z_bark = 13*arctan(0.76* f /1000)+3.5*arctan((f /7500)^2)
  
 **Psychoacoustic Model**: Used to estimate Masking Threshold
 
-(1). Compute short-time power spectrum (FFT)
+1. Compute short-time power spectrum (FFT)
 
-(2). Map power onto Bark scale
+2. Map power onto Bark scale
 
-(3). Spread bark power spectrum using masking curve
+3. Spread bark power spectrum using masking curve
 
-(4). Estimate “tonality” in each block or each band in block
+4. Estimate “tonality” in each block or each band in block
 
-(5). Drop spread power spectrum by appropriate masking level: 20dB if tonal, 5 dB if not tonal
+5. Drop spread power spectrum by appropriate masking level: 20dB if tonal, 5 dB if not tonal
 
-(6). Map back to Hz scale: Spread power in one Bark interval over associated FFT bins
+6. Map back to Hz scale: Spread power in one Bark interval over associated FFT bins
  
 ## FilterbankAndTransformation
 
@@ -158,15 +158,15 @@ Adapt time resolution of MDCT by switching between long(good frequency response)
 
 2. High-frequency-resolution mode: Sufficient frequency resolution control frequency masking at low frequencies
  
- **DFT**
+**DFT**
  
- 1. Redundancy Removal: DFT “basis functions” are sine waves, which is a good match for Redundancy Removal.
+1. Redundancy Removal: DFT “basis functions” are sine waves, which is a good match for Redundancy Removal.
  
- 2. Time/Frequency resolution tradeoff: Can’t have high resolution in both time and frequency. (High time resolution => short transform length; High frequency resolution => long transform length)
+2. Time/Frequency resolution tradeoff: Can’t have high resolution in both time and frequency. (High time resolution => short transform length; High frequency resolution => long transform length)
  
- 3. Windowing: Windowing yields a more accurate short-time spectrum(Lower “leakage”)
+3. Windowing: Windowing yields a more accurate short-time spectrum(Lower “leakage”)
  
- ![](https://github.com/yeliuyChuy/AudioCodecToolKit/blob/master/_ReadmePics/DFT.png)
+![](https://github.com/yeliuyChuy/AudioCodecToolKit/blob/master/_ReadmePics/DFT.png)
  
  **DCT**
  
